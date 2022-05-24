@@ -1,11 +1,11 @@
 import React from 'react'
-import Navbar from '../../Components/Navbar/Navbar'
 import { AiFillCaretRight } from 'react-icons/ai'
-import './style.css'
+import './Home.css'
 import HocData from '../../Data/HocData'
 import FaqData from '../../Data/FaqData'
 import Card from './Card/Card'
 import Tile from './Tile/Tile'
+import Navbar from '../../Components/Navbar/Navbar'
 
 const index = () => {
 	const cards = HocData.map(item => {
@@ -30,8 +30,8 @@ const index = () => {
 
   	return (
 		<>
-			<Navbar />
 
+			<Navbar />
 			<section className="hero d-flex purple-bg">
 				<div className="hero-left">
 					<h1 className="hero-heading">
