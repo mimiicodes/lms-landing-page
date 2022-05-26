@@ -1,5 +1,5 @@
 import React from "react"
-import '../Tile/Tile.css'
+import '../Tile/Tile.scss'
 import {BsFillPatchQuestionFill} from 'react-icons/bs'
 
 export default function Card(props) {

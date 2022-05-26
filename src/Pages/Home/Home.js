@@ -1,6 +1,6 @@
 import React from 'react'
 import { AiFillCaretRight } from 'react-icons/ai'
-import './Home.css'
+import './Home.scss'
 import HocData from '../../Data/HocData'
 import FaqData from '../../Data/FaqData'
 import Card from './Card/Card'
@@ -32,7 +32,7 @@ const index = () => {
 		<>
 
 			<Navbar />
-			<section className="hero d-flex purple-bg">
+			<section className="hero purple-bg">
 				<div className="hero-left">
 					<h1 className="hero-heading">
 						Learn to Code Websites, Apps & Games
@@ -40,7 +40,7 @@ const index = () => {
 					<p className="hero-description">
 						Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed molestie, velit ut eleifend sollicitudin, neque orci tempor nulla, id sagittis nisi ante nec arcu.
 					</p>
-					<button className="view-courses button">
+					<button className="green-button">
 						VIEW COURSES < AiFillCaretRight />
 					</button>
 				</div>
@@ -49,7 +49,7 @@ const index = () => {
 				</div>
 			</section>
 
-			<section className="hundreds-of-courses d-flex">
+			<section className="hundreds-of-courses">
 				<div className="hundreds-of-courses-left">
 					<h1 className="hundreds-of-courses-heading">
 						100's of Courses
@@ -61,7 +61,7 @@ const index = () => {
 					<p className="hundreds-of-courses-description">
 						himenaeos. Sed molestie, velit ut eleifend sollicitudin, neque orci tempor nulla, id sagittis nisi ante nec arcu. Fusce porta bibendum convallis. Morbi fringilla sollicitudin scelerisque. In pellentesque
 					</p>
-					<button className="view-all-courses button">
+					<button className="purple-button">
 						VIEW ALL COURSES < AiFillCaretRight />
 					</button>
 				</div>
@@ -70,7 +70,7 @@ const index = () => {
 				</div>
 			</section>
 
-			<section className="become-an-expert d-flex purple-bg">
+			<section className="become-an-expert purple-bg">
 				<div className="become-an-expert-left">
 					<img className='become-an-expert-left-img' alt='become an expert' src="https://www.elegantthemes.com/layouts/wp-content/uploads/2017/12/coding-isometric-02.png" />
 				</div>
@@ -82,13 +82,13 @@ const index = () => {
 					<p className="become-an-expert-right-description">
 						Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed molestie, velit ut eleifend sollicitudin, neque orci tempor nulla, id sagittis nisi ante nec arcu. Fusce porta bibendum convallis. Morbi fringilla sollicitudin scelerisque.
 					</p>
-					<button className="view-courses button">
+					<button className="green-button">
 						VIEW ALL COURSES < AiFillCaretRight />
 					</button>
 				</div>
 			</section>
 
-			<section className="learn-by-doing d-flex">
+			<section className="learn-by-doing">
 				<div className="learn-by-doing-left">
 					<div className="learn-by-doing-logo">
 						<img className='learn-by-doing-logo-img' src="https://www.elegantthemes.com/layouts/wp-content/uploads/2017/12/coding-iconArtboard-19-copy-8.jpg" alt="learn" />
@@ -109,7 +109,7 @@ const index = () => {
 				</div>
 			</section>
 
-			<section className="learn-by-doing d-flex">
+			<section className="learn-by-doing">
 				<div className="ayg-right">
 					<img className='learn-by-doing-right-img p-30' alt='learn by doing' src="https://www.elegantthemes.com/layouts/wp-content/uploads/2017/12/coding-isometric-04.png" />
 				</div>
@@ -130,7 +130,7 @@ const index = () => {
 				</div>
 			</section>
 
-			<section className="learn-by-doing d-flex">
+			<section className="learn-by-doing">
 				<div className="learn-by-doing-left">
 					<div className="learn-by-doing-logo">
 						<img className='learn-by-doing-logo-img' src="https://www.elegantthemes.com/layouts/wp-content/uploads/2017/12/coding-iconArtboard-19-copy-10.jpg" alt="learn" />
@@ -159,7 +159,7 @@ const index = () => {
 					<p className="become-an-expert-right-description">
 						Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed molestie, velit ut eleifend sollicitudin, neque orci tempor nulla, id sagittis nisi ante nec arcu. Fusce porta bibendum convallis. Morbi fringilla sollicitudin scelerisque.
 					</p>
-					<div className="testifier d-flex">
+					<div className="testifier">
 						<div className="testifier-img-div">
 							<img src="https://www.elegantthemes.com/layouts/wp-content/uploads/2017/12/testimonial-avatar.png" alt="testifier" />
 						</div>
@@ -171,7 +171,7 @@ const index = () => {
 				</div>
 			</section>
 
-			<section className="hundreds-of-courses d-flex">
+			<section className="hundreds-of-courses">
 				<div className="hundreds-of-courses-left">
 					<h1 className="hundreds-of-courses-heading">
 						FAQ
@@ -183,7 +183,7 @@ const index = () => {
 					<p className="hundreds-of-courses-description">
 						himenaeos. Sed molestie, velit ut eleifend sollicitudin, neque orci tempor nulla, id sagittis nisi ante nec arcu. Fusce porta bibendum convallis. Morbi fringilla sollicitudin scelerisque. In pellentesque
 					</p>
-					<button className="view-all-courses button">
+					<button className="purple-button">
 						Contact Us < AiFillCaretRight />
 					</button>
 				</div>
@@ -193,8 +193,8 @@ const index = () => {
 			</section>
 
 			<section className="home-footer">
-				<div className="home-footer-overlapping d-flex">
-					<div className="home-footer-card d-flex come-up">
+				<div className="home-footer-overlapping">
+					<div className="home-footer-card come-up">
 						<div className="home-footer-img">
 							<img src="https://www.elegantthemes.com/layouts/wp-content/uploads/2017/12/coding-icon_2.jpg" alt="logo"/>
 						</div>
@@ -203,7 +203,7 @@ const index = () => {
 							<p className="home-footer-p">Duis egestas aliquet aliquet. Maecenas erat eros, fringilla et leo eget, viverra pretium nulla. Quisque sed augue tincidunt, posuere dui tempor.</p>
 						</div>
 					</div>
-					<div className="home-footer-card d-flex">
+					<div className="home-footer-card">
 						<div className="home-footer-img">
 							<img src="https://www.elegantthemes.com/layouts/wp-content/uploads/2017/12/coding-icon_8.jpg" alt="logo"/>
 						</div>
@@ -213,14 +213,14 @@ const index = () => {
 						</div>
 					</div>
 				</div>
-				<div className="home-footer-content d-flex">
+				<div className="home-footer-content">
 					<div className="home-footer-content-left">
 						<h1 className='home-footer-h1'>Ready to get started</h1>
 						<p className='home-footer-p2'>Get in touch, or create an account</p>
 					</div>
 					<div className="home-footer-content-right">
-						<button className='button view-all-courses footer-btn'>create account < AiFillCaretRight /></button>
-						<button className='button view-all-courses footer-btn'>contact us < AiFillCaretRight /></button>
+						<button className='purple-button footer-btn'>create account < AiFillCaretRight /></button>
+						<button className='purple-button footer-btn'>contact us < AiFillCaretRight /></button>
 					</div>
 				</div>
 			</section>

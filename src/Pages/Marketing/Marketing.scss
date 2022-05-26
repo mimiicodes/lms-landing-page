@@ -1,0 +1,102 @@
+$bigheading-color: #7272ff;
+$p-color: #8585bd;
+$h4-color: #2e2545;
+$mobile: 820px;
+
+@mixin flexEvenly {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+@mixin buttonStyle ($backgroundColor) {
+    padding: 20px;
+    border-radius: 100px;
+    outline: none;
+    border: none;
+    color: #FFFFFF;
+    border-width: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase !important;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: $backgroundColor;
+}
+.super-classroom{
+    @include flexEvenly();
+    padding: 180px 0;
+    .left{
+        width: 40%;
+        .view-all-courses{
+            @include buttonStyle(#09e1c0)
+        }
+        .heading{
+            color: #ffffff;
+            font-size: 36px;
+            padding: 0 0 20px;
+        }
+        .description{
+            color: #d4ccff;
+            line-height: 1.9em;
+            font-size: 16px;
+            padding-bottom: 40px;
+        }
+
+    }
+    .right{
+        width: 40%;
+        &-img{
+            width: 100%;
+        }
+    }
+}
+img{
+    width: 100%;
+}
+
+@media screen and (max-width: $mobile) {
+    .super-classroom{
+        & .left{
+            width: 90%;
+        }
+        .right{
+            width: 90%;
+            &-img{
+                width: 100%;
+            }
+        }
+    }
+}
+
+.what-we-offer{
+    margin: 100px auto;
+
+    &-intro{
+        width: 40%;
+        text-align: center;
+    }
+    &-heading{
+        font-size: 36px;
+        color: #7272ff;
+        padding: 0 0 10px;
+    }
+    &-description{
+        color: #8585bd;
+        font-size: 16px;
+    }
+}
+.offered{
+    @include flexEvenly();
+    padding: 0 100px;
+}
+
+@media screen and (max-width: 820px) {
+    .what-we-offer{
+        &-intro{
+            width: 90%;
+        }
+    }
+    .offered{
+        @include flexEvenly();
+        padding: 0 0px;
+    }
+}

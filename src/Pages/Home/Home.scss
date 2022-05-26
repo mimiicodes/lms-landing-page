@@ -1,9 +1,9 @@
-.d-flex{
+@mixin flexEvenly {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-.button{
+@mixin buttonStyle ($backgroundColor) {
     padding: 20px;
     border-radius: 100px;
     outline: none;
@@ -14,6 +14,7 @@
     text-transform: uppercase !important;
     font-weight: 700;
     cursor: pointer;
+    background-color: $backgroundColor;
 }
 .green-hr{
     width: 20%;
@@ -39,6 +40,20 @@ img{
 
 .hero{
     padding: 180px 0px 100px 0;
+    @include flexEvenly();
+    &-heading{
+        font-size: 42px;
+        font-family: 'Open Sans', Arial, sans-serif;
+    }
+    &-description{
+        line-height: 1.9em;
+        overflow-wrap: break-word;
+        font-size: 16px;
+        color: #d4ccff;
+    }
+    &-heading, &-description{
+        margin-bottom: 50px;
+    }
 }
 .hero-left, .learn-by-doing-left, .become-an-expert-left{
     width: 40%;
@@ -46,23 +61,10 @@ img{
 .hero-right, .learn-by-doing-right, .become-an-expert-right{
     width: 40%;
 }
-.hero-heading, .hero-description{
-    margin-bottom: 50px;
+.green-button{
+    @include buttonStyle(#09e1c0)
 }
-.hero-heading{
-    font-size: 42px;
-    font-family: 'Open Sans', Arial, sans-serif;
-}
-.hero-description{
-    line-height: 1.9em;
-    overflow-wrap: break-word;
-    font-size: 16px;
-    color: #d4ccff;
 
-}
-.view-courses{
-    background-color: #09e1c0;
-}
 @media screen and (max-width: 820px){
     .hero, .learn-by-doing{
         padding: 150px 0px 100px 0;
@@ -82,9 +84,10 @@ img{
 
 .hundreds-of-courses{
     padding: 70px 0 170px 0;
+    @include flexEvenly();
 }
-.view-all-courses{
-    background-color: #7272ff;
+.purple-button{
+    @include buttonStyle(#7272ff);
     margin-top: 40px;
 }
 .hundreds-of-courses-left{
@@ -136,6 +139,7 @@ img{
 
 .become-an-expert{
     padding: 100px 0;
+    @include flexEvenly();
 }
 .become-an-expert-right{
     padding-top: 100px;
@@ -169,6 +173,7 @@ img{
 .learn-by-doing{
     padding: 50px 0;
     background-color: #FFFFFF;
+    @include flexEvenly();
 }
 .ayg-right{
     width: 35%;
@@ -181,10 +186,14 @@ img{
 }
 .testimonial{
     padding: 100px 0;
+    @include flexEvenly();
 }
 .testimonial-right{
     margin-top: -190px;
     width: 40%;
+}
+.testifier{
+    @include flexEvenly();
 }
 .testifier-img-div{
     width: 15%;
@@ -214,6 +223,7 @@ img{
     background-color: #f7f8fc;
 }
 .home-footer-card{
+    @include flexEvenly();
     width: 35%;
     padding: 20px;
     font-family: 'Open Sans', Arial, sans-serif;
@@ -245,6 +255,7 @@ img{
     padding: 100px 0px;
     width: 90%;
     margin: auto;
+    @include flexEvenly();
 }
 .home-footer-h1{
     font-size: 36px;
@@ -254,6 +265,9 @@ img{
 .home-footer-p2{
     color: #8585bd;
     font-size: 22px;
+}
+.home-footer-overlapping{
+    @include flexEvenly();
 }
 .footer-btn{
     margin: 10px;
