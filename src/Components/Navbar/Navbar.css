@@ -26,7 +26,7 @@
     list-style-type: none;
     padding: 0 1rem;
 }
-.navigation-menu li a {
+.navigation-menu li .link {
     text-decoration: none;
     display: block;
     width: 100%;
@@ -65,7 +65,7 @@
         border-top: 1px solid black;
         transition: all 0.3s ease;
       }
-      .navigation-menu li a {
+      .navigation-menu li .link {
         color: black;
         width: 100%;
         padding: 1rem 0;

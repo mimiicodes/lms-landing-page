@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import {FaBars} from 'react-icons/fa'
-// import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 import './Navbar.css'
 
 const Navbar = () => {
@@ -8,21 +8,21 @@ const Navbar = () => {
     const [isNavExpanded, setIsNavExpanded] = useState (false)
   return (
     <nav className='navigation'>
-        <a href='/' className="brand-name">LMS Landing Page</a>
+        <Link to='/' className="brand-name">LMS Landing Page</Link>
         <FaBars className='hamburger' onClick={() => {setIsNavExpanded(!isNavExpanded)}}/>
         <div className={
           isNavExpanded ? "navigation-menu expanded" : "navigation-menu"
         }>
             <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/marketing">Marketing</a></li>
-                <li><a href="/courses">Courses</a></li>
-                <li><a href="/pricing">Pricing</a></li>
-                <li><a href="/course">Course</a></li>
-                <li><a href="/course">Course</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a href="/blog">Blog</a></li>
-                <li><a href="/contact">Contact</a></li>
+                <li><Link className='link' to="/">Home</Link></li>
+                <li><Link className='link' to="/marketing">Marketing</Link></li>
+                <li><Link className='link' to="/courses">Courses</Link></li>
+                <li><Link className='link' to="/pricing">Pricing</Link></li>
+                <li><Link className='link' to="/course">Course</Link></li>
+                <li><Link className='link' to="/course">Course</Link></li>
+                <li><Link className='link' to="/about">About</Link></li>
+                <li><Link className='link' to="/blog">Blog</Link></li>
+                <li><Link className='link' to="/contact">Contact</Link></li>
             </ul>
         </div>
     </nav>
