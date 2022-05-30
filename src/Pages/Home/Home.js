@@ -6,6 +6,7 @@ import FaqData from '../../Data/FaqData'
 import Card from './Card/Card'
 import Tile from './Tile/Tile'
 import Navbar from '../../Components/Navbar/Navbar'
+import Footer from '../../Components/Footer/Footer'
 
 const index = () => {
 	const cards = HocData.map(item => {
@@ -192,7 +193,9 @@ const index = () => {
 				</div>
 			</section>
 
-			<section className="home-footer">
+			<Footer />
+
+			{/* <section className="home-footer">
 				<div className="home-footer-overlapping">
 					<div className="home-footer-card come-up">
 						<div className="home-footer-img">
@@ -223,7 +226,7 @@ const index = () => {
 						<button className='purple-button footer-btn'>contact us < AiFillCaretRight /></button>
 					</div>
 				</div>
-			</section>
+			</section> */}
 		</>
   	)
 }

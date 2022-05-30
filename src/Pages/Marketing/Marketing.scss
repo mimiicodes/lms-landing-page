@@ -26,7 +26,7 @@ $mobile: 820px;
     padding: 180px 0;
     .left{
         width: 40%;
-        .view-all-courses{
+        .green-button{
             @include buttonStyle(#09e1c0)
         }
         .heading{
@@ -72,6 +72,7 @@ img{
 
     &-intro{
         width: 40%;
+        margin: auto;
         text-align: center;
     }
     &-heading{
@@ -99,4 +100,122 @@ img{
         @include flexEvenly();
         padding: 0 0px;
     }
+}
+
+.popular-courses{
+    padding: 100px 0;
+
+    &-intro{
+        width: 40%;
+        margin: auto;
+        text-align: center;
+        padding: 100px auto;
+    }
+    &-heading{
+        font-size: 36px;
+        color: #ffffff;
+        padding: 0 0 10px;
+    }
+    &-description{
+        color: #d4ccff;
+        font-size: 16px;
+    }
+
+    .videos{
+        padding: 60px 0 0 0;
+
+        .each-video{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-evenly;
+
+            .one-vid{
+            padding-bottom: 60px;
+                // width: 560px;
+                // height: 315px;
+                width: 40%;
+                height: 340px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 820px) {
+    .popular-courses{
+        &-intro{
+            width: 80%;
+        }
+        .videos{
+            padding: 60px 0 0 0;
+    
+            .each-video{
+                .one-vid{
+                    padding-bottom: 60px;
+                    width: 90%;
+                }
+            }
+        }
+    }
+}
+
+.people-saying{
+    margin: 100px 0;
+
+    &-intro{
+        text-align: center;
+        width: 40%;
+        margin: auto;
+    }
+
+    &-heading{
+        font-size: 36px;
+        color: #7272ff;
+        padding: 0 0 10px;
+    }
+    &-description{
+        color: #8585bd;
+        font-size: 14px;
+        padding: 0 0 14px;
+        text-align: center;
+        width: 65%;
+        margin: auto;
+    }
+    .swiper{
+        height: fit-content;
+        padding: 20px;
+        width: 80%;
+    }
+    .swiper-button-prev, .swiper-button-next{
+        color: #000;
+    }
+    .swiper-button-prev::after, .swiper-button-next::after{
+        font-size: 25px !important;
+        font-weight: bolder;
+    }
+    .swiper-pagination-bullet-active{
+        background-color: #000;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .people-saying{
+        margin: 100px 0;
+    
+        &-intro{
+            width: 90%;
+        }
+        &-description{
+            width: 80%;
+        }
+        .swiper{
+            width: 90%;
+        }
+    }
+}
+
+.elevate-classroom{
+    padding-bottom: 170px;
+}
+.free-trial{
+    margin: 30px;
 }
