@@ -1,0 +1,44 @@
+.our-courses{
+    padding: 180px 0;
+    
+    .intro{
+        width: 40%;
+        margin: auto;
+        text-align: center;
+    }
+    &-heading{
+        padding: 0 0 30px;
+        font-size: 42px;
+    }
+    &-description{
+        color: #d4ccff;
+        line-height: 1.9em;
+    }
+}
+.courses-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 150px;
+    margin-top: -150px;
+}
+.no-of-courses{
+    color: #8585bd;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 820px){
+    .our-courses{
+        
+        .intro{
+            width: 90%;
+        }
+    }
+    .courses-list{
+        width: 100%;
+    }
+}
