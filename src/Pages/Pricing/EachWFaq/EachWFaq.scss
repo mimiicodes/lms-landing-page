@@ -1,0 +1,24 @@
+.each-faq--stats{
+    width: 40%;
+    padding: 30px 0;
+}
+.each-faq--title{
+    padding: 10px 0 5px 0;
+    color: #2e2545;
+    font-size: 18px;
+    line-height: 1.5em;
+}
+.each-faq--desc{
+    line-height: 1.9em;
+    color: #8989bd;
+    text-align: left;
+    overflow-wrap: break-word;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 820px) {
+    .each-faq--stats{
+        width: 100%;
+    }
+}

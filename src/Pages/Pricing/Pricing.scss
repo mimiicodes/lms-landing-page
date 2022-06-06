@@ -1,0 +1,146 @@
+
+.price-list{
+    width: 80%;
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    &-one{
+        // padding: 20px;
+        background-color: #fff;
+        text-align: center;
+        border-right: 0.5px solid gray;
+        width: 33.333%;
+        padding: 0 0 30px;
+    }
+    .type-of-sub{
+        color: #2e2545;
+        font-size: 20px;
+        padding: 30px 0 15px;
+        font-family: 'Open Sans', Arial, sans-serif;
+    }
+    .access{
+        color: #8585bd;
+        font-size: 14px;
+        font-family: 'Open Sans', Arial, sans-serif;
+        font-weight: bold;
+    }
+    
+    .pricing-content{
+        padding: 30px 0;
+        font-weight: 700;
+        .price{
+            display: flex;
+            justify-content: center;
+        }
+        .sum{
+            font-size: 80px;
+        }
+        .dollar-sign, .frequency{
+            font-size: 26px;
+        }
+        .frequency{
+            display: flex;
+            align-items: flex-end;
+        }
+    }
+    .pricing-benefits{
+        padding: 30px;
+        font-family: 'Open Sans', Arial, sans-serif;
+        li{
+            list-style: none;
+            color: #8585bd;
+            padding: 0 0 25.6px 14px;
+        }
+    }
+    button{
+        margin-top: 0;
+    }
+}
+.pc-purple{
+    color: #7272ff;
+}
+.pc-green{
+    color: #09e1c0;
+}
+.unavailable{
+    color: #d8d8ef;
+}
+
+@media screen and (max-width: 820px) {
+    .price-list{
+        width: 80%;
+        margin: 100px auto 0 auto;
+    
+        &-one{
+            width: 100%;
+            margin-bottom: 30px;
+        }
+    }
+}
+
+.enrolling-benefits{
+    padding: 100px 0;
+    .intro {
+        line-height: 2em;
+        width: 35%;
+        margin: auto;
+    }
+    &-heading{
+        color: #7272ff;
+        font-size: 36px;
+        font-family: 'Open sans', Arial, sans-serif;
+        padding: 0 0 30px;
+        text-align: center;
+    }
+    &-description{
+        color: #8585bd;
+        font-size: 16px;
+        font-family: 'Open sans', Arial, sans-serif;
+        text-align: center;
+    }
+}
+
+.wge-faq-container{
+    width: 90%;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-self: center;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+@media screen and (max-width: 820px) {
+    .enrolling-benefits{
+        .intro {
+            width: 90%;
+        }
+        &-heading{
+            color: #7272ff;
+            font-size: 36px;
+            font-family: 'Open sans', Arial, sans-serif;
+            padding: 0 0 30px;
+            text-align: center;
+            line-height: initial;
+        }
+        &-description{
+            color: #8585bd;
+            font-size: 16px;
+            font-family: 'Open sans', Arial, sans-serif;
+            text-align: center;
+            line-height: 1.5em;
+        }
+    }
+    
+    .wge-faq-container{
+        width: 80%;
+        margin: 30px auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-self: center;
+        font-family: 'Open Sans', Arial, sans-serif;
+    }
+}
