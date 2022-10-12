@@ -164,7 +164,7 @@ const Pricing = () => {
 				<div className="become-an-expert-left" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
 					<img className='become-an-expert-left-img' alt='become an expert' src="https://www.elegantthemes.com/layouts/wp-content/uploads/2017/12/coding-isometric-02.png" />
 				</div>
-				<div className="become-an-expert-right" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1000">
+				<div className="become-an-expert-right" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
 					<h1 className="become-an-expert-right-heading">
 						Become an Expert
 					</h1>

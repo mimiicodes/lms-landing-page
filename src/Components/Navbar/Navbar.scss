@@ -34,14 +34,20 @@
           width: 100%;
           min-width: 10px;
           color: black;
+          padding: 10px;
+          border-radius: 3px;
           transition: all 0.5s ease-out;
 
           &:hover{
-            border-bottom: 1px solid #2e2545;
+            // border-bottom: 1px solid #2e2545;
+            background-color: #9271f6;
+            color: #fff;
           }
         }
         .active{
-          border-bottom: 1px solid #2e2545;
+          // border-bottom: 1px solid #2e2545;
+          background-color: #9271f6;
+            color: #fff;
         }
       }
     }
