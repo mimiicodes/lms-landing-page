@@ -20,7 +20,7 @@ const Courses = () => {
     <>
         <Navbar />
         <section className="our-courses purple-bg">
-          <div className="intro">
+          <div className="intro" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
             <h1 className="our-courses-heading">
               Our Courses
             </h1>

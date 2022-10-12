@@ -55,6 +55,15 @@
     margin: auto;
     @include flexEvenly();
 }
+.home-footer-content-left{
+    width: 40%;
+}
+.home-footer-content-right{
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 .home-footer-h1{
     font-size: 36px;
     color: #7272ff;
@@ -81,6 +90,14 @@
         margin-top: -100px;
     }
     .footer-btn{
-        margin: 5px;
+        margin: 1px;
+    }
+    .home-footer-content-left{
+        width: 100%;
+    }
+    .home-footer-content-right{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
     }
 }

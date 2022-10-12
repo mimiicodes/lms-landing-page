@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import {FaBars} from 'react-icons/fa'
-import {Link, useLocation} from 'react-router-dom'
+import {NavLink, useLocation} from 'react-router-dom'
 import './Navbar.scss'
 
 const Navbar = () => {
@@ -19,20 +19,20 @@ const Navbar = () => {
   const [isNavExpanded, setIsNavExpanded] = useState (false)
   return (
     <nav className='navigation'>
-        <Link to='/' className="brand-name">{NavbarTexts.find(el => el.page === location.pathname)?.text}</Link>
+        <NavLink to='/' className="brand-name">{NavbarTexts.find(el => el.page === location.pathname)?.text}</NavLink>
         <FaBars className='hamburger' onClick={() => {setIsNavExpanded(!isNavExpanded)}}/>
         <div className={
           isNavExpanded ? "navigation-menu expanded" : "navigation-menu"
         }>
             <ul>
-                <li><Link className='link' to="/">Home</Link></li>
-                <li><Link className='link' to="/marketing">Marketing</Link></li>
-                <li><Link className='link' to="/courses">Courses</Link></li>
-                <li><Link className='link' to="/pricing">Pricing</Link></li>
-                <li><Link className='link' to="/course">Course</Link></li>
-                <li><Link className='link' to="/about">About</Link></li>
-                <li><Link className='link' to="/blog">Blog</Link></li>
-                <li><Link className='link' to="/contact">Contact</Link></li>
+                <li><NavLink className='link' to="/">Home</NavLink></li>
+                <li><NavLink className='link' to="/marketing">Marketing</NavLink></li>
+                <li><NavLink className='link' to="/courses">Courses</NavLink></li>
+                <li><NavLink className='link' to="/pricing">Pricing</NavLink></li>
+                <li><NavLink className='link' to="/course">Course</NavLink></li>
+                <li><NavLink className='link' to="/about">About</NavLink></li>
+                <li><NavLink className='link' to="/blog">Blog</NavLink></li>
+                <li><NavLink className='link' to="/contact">Contact</NavLink></li>
             </ul>
         </div>
     </nav>

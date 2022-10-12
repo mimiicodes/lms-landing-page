@@ -1,4 +1,4 @@
-const HocData = [
+const      HocData = [
     {   
         id: 1,
         imageUrl: 'https://www.elegantthemes.com/layouts/wp-content/uploads/2017/12/coding-icon_8.jpg',

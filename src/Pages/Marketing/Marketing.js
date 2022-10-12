@@ -30,7 +30,7 @@ const Marketing = () => {
     <>
         <Navbar />
         <section className="super-classroom purple-bg">
-			<div className="left">
+			<div className="left" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
 				<h1 className="heading">
 					Supercharge Your Classroom with a Free Trial of Divi Coding Academy
 				</h1>
@@ -42,7 +42,7 @@ const Marketing = () => {
 					VIEW ALL COURSES < AiFillCaretRight />
 				</button>
 			</div>
-			<div className="right">
+			<div className="right" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1000">
 				<img className='right-img' alt='super-classroom' src="https://www.elegantthemes.com/layouts/wp-content/uploads/2017/12/coding-isometric-02.png" />
 			</div>
 		</section>
@@ -69,12 +69,12 @@ const Marketing = () => {
 			</div>
 			<div className="videos">
 				<div className="each-video">
-					<iframe src="https://www.youtube.com/embed/FkQuawiGWUw?autoplay=1&amp;feature=oembed" className='one-vid' title="YouTube Video Player" frameBorder="0" allow='accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowFullScreen></iframe>
-					<iframe src="https://www.youtube.com/embed/FkQuawiGWUw?autoplay=1&amp;feature=oembed" className='one-vid' title="YouTube Video Player" frameBorder="0" allow='accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowFullScreen></iframe>
+					<iframe data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1000" src="https://www.youtube.com/embed/FkQuawiGWUw?autoplay=1&amp;feature=oembed" className='one-vid' title="YouTube Video Player" frameBorder="0" allow='accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowFullScreen></iframe>
+					<iframe data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1000" src="https://www.youtube.com/embed/FkQuawiGWUw?autoplay=1&amp;feature=oembed" className='one-vid' title="YouTube Video Player" frameBorder="0" allow='accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowFullScreen></iframe>
 				</div>
 				<div className="each-video">
-					<iframe src="https://www.youtube.com/embed/FkQuawiGWUw?autoplay=1&amp;feature=oembed" className='one-vid' title="YouTube Video Player" frameBorder="0" allow='accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowFullScreen></iframe>
-					<iframe src="https://www.youtube.com/embed/FkQuawiGWUw?autoplay=1&amp;feature=oembed" className='one-vid' title="YouTube Video Player" frameBorder="0" allow='accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowFullScreen></iframe>
+					<iframe data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1000" src="https://www.youtube.com/embed/FkQuawiGWUw?autoplay=1&amp;feature=oembed" className='one-vid' title="YouTube Video Player" frameBorder="0" allow='accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowFullScreen></iframe>
+					<iframe data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1000" src="https://www.youtube.com/embed/FkQuawiGWUw?autoplay=1&amp;feature=oembed" className='one-vid' title="YouTube Video Player" frameBorder="0" allow='accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowFullScreen></iframe>
 				</div>
 			</div>
 		</section>
@@ -146,7 +146,7 @@ const Marketing = () => {
 		</section>
 
 		<section className="popular-courses purple-bg elevate-classroom">
-			<div className='popular-courses-intro'>
+			<div className='popular-courses-intro' data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
 				<h1 className="popular-courses-heading">Elevate Your Classroom</h1>
 				<center><hr className="green-hr" /></center>
 				<p className="popular-courses-description">

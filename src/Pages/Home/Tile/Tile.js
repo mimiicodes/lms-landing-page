@@ -6,7 +6,7 @@ export default function Card(props) {
     
     return (
         <>
-            <div className="tile">
+            <div className="tile" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1000">
                 <div className="tile--image--container">
                 <BsFillPatchQuestionFill className="tile--image"/>
                     {/* <img alt="logo"

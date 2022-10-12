@@ -15,6 +15,10 @@
     font-weight: 700;
     cursor: pointer;
     background-color: $backgroundColor;
+    transition: all 1s ease-out 100ms;
+    &:hover{
+        padding-right: 30px;
+    }
 }
 .green-hr{
     width: 10%;

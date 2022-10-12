@@ -5,7 +5,7 @@ export default function WwoCard(props) {
     
     return (
         <>
-            <div className="offered-item">
+            <div className="offered-item" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1000">
                 <div className="offered-image-container">
                     <img alt="logo"
                         src={`${props.imageUrl}`} 

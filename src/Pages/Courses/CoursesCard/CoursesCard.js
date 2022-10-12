@@ -5,7 +5,7 @@ export default function CoursesCard(props) {
     
     return (
         <>
-            <div className="courses-card">
+            <div className="courses-card" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1000">
                 <div className="courses-card--image--container">
                     <img alt="logo"
                         src={`${props.imageUrl}`} 

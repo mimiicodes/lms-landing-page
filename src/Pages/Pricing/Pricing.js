@@ -34,7 +34,7 @@ const Pricing = () => {
     <>
         <Navbar />
         <section className="our-courses purple-bg">
-          <div className="intro">
+          <div className="intro"data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
             <h1 className="our-courses-heading">
               Choose a Plan that Works for You
             </h1>
@@ -45,7 +45,7 @@ const Pricing = () => {
 
 
           <div className="price-list">
-              <div className="price-list-one">
+              <div className="price-list-one" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1000">
                   <h2 className="type-of-sub">
                     7 Day Trial
                   </h2>
@@ -78,7 +78,7 @@ const Pricing = () => {
               </div>
 
 
-              <div className="price-list-one">
+              <div className="price-list-one" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1000">
                   <h2 className="type-of-sub">
                     Premium Account
                   </h2>
@@ -111,7 +111,7 @@ const Pricing = () => {
               </div>
 
 
-              <div className="price-list-one">
+              <div className="price-list-one" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1000">
                   <h2 className="type-of-sub">
                     Premium Account
                   </h2>
@@ -161,10 +161,10 @@ const Pricing = () => {
         </section>
 
         <section className="become-an-expert purple-bg">
-				<div className="become-an-expert-left">
+				<div className="become-an-expert-left" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
 					<img className='become-an-expert-left-img' alt='become an expert' src="https://www.elegantthemes.com/layouts/wp-content/uploads/2017/12/coding-isometric-02.png" />
 				</div>
-				<div className="become-an-expert-right">
+				<div className="become-an-expert-right" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1000">
 					<h1 className="become-an-expert-right-heading">
 						Become an Expert
 					</h1>
@@ -179,7 +179,7 @@ const Pricing = () => {
 		</section>
 
         <section className="enrolling-benefits">
-            <div className="intro">
+            <div className="intro" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
                 <h1 className="enrolling-benefits-heading">
                 FAQ
                 </h1>

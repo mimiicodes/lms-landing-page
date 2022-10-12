@@ -34,7 +34,7 @@ const index = () => {
 
 			<Navbar />
 			<section className="hero purple-bg">
-				<div className="hero-left">
+				<div className="hero-left" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
 					<h1 className="hero-heading">
 						Learn to Code Websites, Apps & Games
 					</h1>
@@ -45,13 +45,13 @@ const index = () => {
 						VIEW COURSES < AiFillCaretRight />
 					</button>
 				</div>
-				<div className="hero-right">
+				<div className="hero-right" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1000">
 					<img className='hero-right-img' src="https://www.elegantthemes.com/layouts/wp-content/uploads/2017/12/coding-isometric-01.png" alt="coding-isometric-01" />
 				</div>
 			</section>
 
 			<section className="hundreds-of-courses">
-				<div className="hundreds-of-courses-left">
+				<div className="hundreds-of-courses-left" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000">
 					<h1 className="hundreds-of-courses-heading">
 						100's of Courses
 					</h1>
@@ -72,10 +72,10 @@ const index = () => {
 			</section>
 
 			<section className="become-an-expert purple-bg">
-				<div className="become-an-expert-left">
+				<div className="become-an-expert-left" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
 					<img className='become-an-expert-left-img' alt='become an expert' src="https://www.elegantthemes.com/layouts/wp-content/uploads/2017/12/coding-isometric-02.png" />
 				</div>
-				<div className="become-an-expert-right">
+				<div className="become-an-expert-right" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1000">
 					<h1 className="become-an-expert-right-heading">
 						Become an Expert
 					</h1>
@@ -90,7 +90,7 @@ const index = () => {
 			</section>
 
 			<section className="learn-by-doing">
-				<div className="learn-by-doing-left">
+				<div className="learn-by-doing-left" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
 					<div className="learn-by-doing-logo">
 						<img className='learn-by-doing-logo-img' src="https://www.elegantthemes.com/layouts/wp-content/uploads/2017/12/coding-iconArtboard-19-copy-8.jpg" alt="learn" />
 					</div>
@@ -105,16 +105,16 @@ const index = () => {
 						Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed molestie, velit ut eleifend sollicitudin, neque orci tempor nulla, id sagittis nisi ante nec arcu. Fusce porta bibendum convallis. Morbi fringilla sollicitudin scelerisque.
 					</p>
 				</div>
-				<div className="learn-by-doing-right">
+				<div className="learn-by-doing-right" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1000">
 					<img className='learn-by-doing-right-img' alt='learn by doing' src="https://www.elegantthemes.com/layouts/wp-content/uploads/2017/12/coding-isometric-03.png" />
 				</div>
 			</section>
 
 			<section className="learn-by-doing">
-				<div className="ayg-right">
+				<div className="ayg-right" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
 					<img className='learn-by-doing-right-img p-30' alt='learn by doing' src="https://www.elegantthemes.com/layouts/wp-content/uploads/2017/12/coding-isometric-04.png" />
 				</div>
-				<div className="learn-by-doing-left">
+				<div className="learn-by-doing-left" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1000">
 					<div className="learn-by-doing-logo">
 						<img className='learn-by-doing-logo-img' src="https://www.elegantthemes.com/layouts/wp-content/uploads/2017/12/coding-iconArtboard-19-copy-9.jpg" alt="learn" />
 					</div>
@@ -132,7 +132,7 @@ const index = () => {
 			</section>
 
 			<section className="learn-by-doing">
-				<div className="learn-by-doing-left">
+				<div className="learn-by-doing-left" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
 					<div className="learn-by-doing-logo">
 						<img className='learn-by-doing-logo-img' src="https://www.elegantthemes.com/layouts/wp-content/uploads/2017/12/coding-iconArtboard-19-copy-10.jpg" alt="learn" />
 					</div>
@@ -147,13 +147,13 @@ const index = () => {
 						Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed molestie, velit ut eleifend sollicitudin, neque orci tempor nulla, id sagittis nisi ante nec arcu. Fusce porta bibendum convallis. Morbi fringilla sollicitudin scelerisque.
 					</p>
 				</div>
-				<div className="ayg-right">
+				<div className="ayg-right" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1000">
 					<img className='learn-by-doing-right-img' alt='learn by doing' src="https://www.elegantthemes.com/layouts/wp-content/uploads/2017/12/coding-isometric-05.png" />
 				</div>
 			</section>
 
 			<section className="d-flex purple-bg testimonial">
-				<div className="become-an-expert-left">
+				<div className="become-an-expert-left" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
 					<h1 className="become-an-expert-right-heading">
 						" <br /> My entire team was prototyping by the end of the first day!
 					</h1>
@@ -167,13 +167,13 @@ const index = () => {
 						<p className="testifier-p become-an-expert-right-description"><b>John Smith,&nbsp;</b>Divi Design Initiative</p>
 					</div>
 				</div>
-				<div className="testimonial-right">
+				<div className="testimonial-right" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1000">
 					<img className='testimonial-img' alt='learn by doing' src="https://www.elegantthemes.com/layouts/wp-content/uploads/2017/12/coding-dots.png" />
 				</div>
 			</section>
 
 			<section className="hundreds-of-courses">
-				<div className="hundreds-of-courses-left">
+				<div className="hundreds-of-courses-left" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1000">
 					<h1 className="hundreds-of-courses-heading">
 						FAQ
 					</h1>

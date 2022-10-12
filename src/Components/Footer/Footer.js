@@ -1,12 +1,17 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import { AiFillCaretRight } from 'react-icons/ai'
 import './Footer.scss'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Footer = () => {
+    useEffect(() => {
+        AOS.init();
+      }, []);
   return (
     <section className="home-footer">
         <div className="home-footer-overlapping">
-            <div className="home-footer-card come-up">
+            <div className="home-footer-card come-up" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1000">
                 <div className="home-footer-img">
                     <img src="https://www.elegantthemes.com/layouts/wp-content/uploads/2017/12/coding-icon_2.jpg" alt="logo"/>
                 </div>
@@ -15,7 +20,7 @@ const Footer = () => {
                     <p className="home-footer-p">Duis egestas aliquet aliquet. Maecenas erat eros, fringilla et leo eget, viverra pretium nulla. Quisque sed augue tincidunt, posuere dui tempor.</p>
                 </div>
             </div>
-            <div className="home-footer-card">
+            <div className="home-footer-card" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1000">
                 <div className="home-footer-img">
                     <img src="https://www.elegantthemes.com/layouts/wp-content/uploads/2017/12/coding-icon_8.jpg" alt="logo"/>
                 </div>
